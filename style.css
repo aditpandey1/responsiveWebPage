@@ -233,7 +233,7 @@ section img{
 }
 @media screen and (min-width:1150px){
     #main2{
-        width:39% ;
+        width:30% !important ;
     }
 }
 
