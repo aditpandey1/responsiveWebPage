@@ -106,6 +106,9 @@ section img{
 .category5{
     display: none;
 }
+.last-icon{
+    display: none;
+}
 @media screen and (min-width:600px){
     header input{
         display: none;
@@ -233,6 +236,28 @@ section img{
 .section-image-info{
         border-radius: 20px;
     }
+  #main2 .horizontal-line{
+    display: none;
+  }
+  #main2 .section-icons-container{
+    display: none;
+  }
+  #main2 .read-more{
+    display: none;
+  }
+  .last-icon{
+    display: initial;
+    width: 100%;
+   
+    
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+    font-size: 1.3rem;
+  }
+  .last-icon span i{
+    margin-right: 1rem;
+  }
 }
 @media screen and (min-width:1150px){
     #main2{
